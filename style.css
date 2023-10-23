@@ -1,0 +1,18 @@
+.btn {
+    font-family: "Robot";
+    font-size: 18px;
+    font-weight: bold;
+    background: #FF5733;
+    width: 140px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
